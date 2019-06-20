@@ -1,0 +1,23 @@
+// Bulk content
+.bulk-entry {
+  max-width: 1100px;
+  padding: 3rem 0 10rem;
+  margin: auto;
+  text-align: center;
+
+  &__item {
+    font-size: 1.5rem;
+    line-height: 2;
+    margin: 0.5rem;
+
+    &:after {
+      content: " ";
+      position: absolute;
+      height: 0.5rem;
+      width: 0.5rem;
+      transform: translateY(1.25rem);
+      border-radius: 50%;
+      background: $color-alt;
+    }
+  }
+}

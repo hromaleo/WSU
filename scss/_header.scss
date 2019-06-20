@@ -1,0 +1,37 @@
+/* Header */
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 110vh;
+  background: url("../Images/Hero_IMG.jpg") no-repeat center center/cover;
+
+  &__logo {
+    background: url(../Images/Bitmap.png) no-repeat center center;
+    width: 82px;
+    height: 85px;
+    margin: 2rem;
+    margin-top: 0;
+  }
+
+  &__heading * {
+    color: $color-primary;
+    font-family: $font-alt;
+    font-weight: 800;
+    font-size: 2.2rem;
+    margin: 0.5rem;
+
+    &:last-child {
+      color: $color-alt;
+    }
+  }
+
+  &__subheading {
+    font-weight: normal;
+    font-size: 1.6rem;
+    color: $color-medium;
+    margin: 3rem;
+  }
+}
