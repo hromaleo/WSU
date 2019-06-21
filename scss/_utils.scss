@@ -15,3 +15,8 @@
 .bg-light {
   background: $color-light;
 }
+
+.link,
+.link * {
+  color: $color-alt;
+}
