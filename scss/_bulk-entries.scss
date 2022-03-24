@@ -10,18 +10,18 @@
   }
 
   &__item {
+    margin: 0.5rem;
     font-size: 1.5rem;
     line-height: 2;
-    margin: 0.5rem;
 
-    &:after {
-      content: " ";
+    &::after {
       position: absolute;
-      height: 0.5rem;
       width: 0.5rem;
-      transform: translateY(1.25rem);
-      border-radius: 50%;
+      height: 0.5rem;
+      content: " ";
       background: $color-alt;
+      border-radius: 50%;
+      transform: translateY(1.25rem);
     }
   }
 }

@@ -2,26 +2,26 @@
 .header {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  text-align: center;
+  justify-content: center;
   height: 110vh;
+  text-align: center;
   background: url("../Images/Hero_IMG.jpg") no-repeat center center/cover;
 
   &__logo {
-    background: url(../Images/Bitmap.png) no-repeat center center;
     width: 82px;
     height: 85px;
     margin: 2rem;
     margin-top: 0;
+    background: url("../Images/Bitmap.png") no-repeat center center;
   }
 
   &__heading * {
-    color: $color-primary;
-    font-family: $font-alt;
-    font-weight: 800;
-    font-size: 2.2rem;
     margin: 0.5rem;
+    font-family: $font-alt;
+    font-size: 2.2rem;
+    font-weight: 800;
+    color: $color-primary;
 
     &:last-child {
       color: $color-alt;
@@ -29,9 +29,9 @@
   }
 
   &__subheading {
-    font-weight: normal;
-    font-size: 1.6rem;
-    color: $color-medium;
     margin: 3rem;
+    font-size: 1.6rem;
+    font-weight: normal;
+    color: $color-medium;
   }
 }
